@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'C:\Program Files\Java\jdk-17 HelloWorld'
+                sh 'java HelloWorld'
             }
         }
     }

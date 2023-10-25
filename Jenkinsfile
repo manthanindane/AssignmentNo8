@@ -17,9 +17,9 @@ pipeline {
                 sh 'javac HelloWorld.java'
             }
         }
-        stage('Test') {
+        stage('Run') {
             steps {
-                sh 'java HelloWorld'
+                sh 'C:\Program Files\Java\jdk-17 HelloWorld'
             }
         }
     }
